@@ -1,0 +1,376 @@
+@font-face{
+ font-family:"Retroica";
+ src:url("fuentes/Retroica.otf"); 
+}
+@font-face{
+ font-family:Ballega;
+ src:url("fuentes/Ballega.otf");
+}
+
+@font-face{
+ font-family:PlayfairDisplay-Medium;
+ src:url("fuentes/PlayfairDisplay-Medium.ttf");
+}
+
+@font-face{
+ font-family:"Mermaid1001";
+ src:url("fuentes/Mermaid1001.ttf"); 
+}
+
+
+
+header{
+	height:auto;
+	width:100%;
+	background-color:#fad9d9;
+	display:flex;
+	border-radius: 20px;
+	margin:none;
+	margin-bottom:2%;
+}
+
+nav{
+	   width:100%;
+       height:auto;
+	   display:flex;
+	   align-items:center;
+	   justify-content: space-evenly;
+}
+
+nav a:link,nav a:visited{
+	
+	  font-size:18px;
+	  text-decoration:none;
+	  color:white;
+	  width:20%;
+	  height:auto;
+      text-align:center;
+	  font-weight: bold;
+	  transition: all 1s;
+	  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);  
+	  font-family:Ballega;
+	  letter-spacing: 2px;
+}     
+ 
+ nav a:hover{
+	 
+    transition: background-color 1ss;
+	color:#CCCCCC;
+	font-family:Ballega;
+	
+ }
+ 
+ a:link{
+	
+	text-decoration:none;
+	color:gray;
+	font-size:18px;
+	 
+	
+}
+a:visited{
+	text-decoration:none;
+	color:white;
+	font-size:24px;
+}
+ 
+footer a:link{
+	color:white;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);  
+
+}
+
+.contenedor{
+	
+	height:100%;
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+	align-content:space-around;
+	align-items:center;
+	margin-top:20px;
+	
+}
+.info{
+	
+	height:auto;
+	width:40%;
+	background-color:#edede9;
+	border-radius: 30px;
+	padding:2%;
+	display:flex;
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+	
+}
+.fcomplemento{
+	
+	height:auto;
+	width:30%;
+	background-color:#fefefd;
+	border-radius: 25px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.fcomplemento img{  /*adaptamos la iamgen a su div padre*/
+       
+	   width:100%;
+       height:auto;  
+}
+	   
+.cartel{
+	border-radius: 30px;
+	margin:auto;
+	width:100%;
+    height:auto;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	background-color:white;
+}
+.contenedor2{
+	height:280px;
+	width:100%;
+	background-color:#edede9;
+    display:flex;
+	border-radius: 30px;
+	justify-content:space-around;
+	align-items:center;
+	margin-top:20px;
+	
+}
+
+
+.contenido{
+	height:200px;
+	width:30%;
+	background-color:#F4DBDB;
+	border-radius: 30px;
+	justify-content:space-around;
+	align-items:center;
+	display:flex;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+footer{
+	height:78px;
+	width:1323px;
+	background-color:#fad9d9;
+	display:flex;
+	border-radius: 20px;
+	margin-top:30px;
+	align-items:center;
+	justify-content: space-around;
+}
+ .footer-logo {
+    font-family: "Ballega", sans-serif;
+    font-size: 24px;
+    color: #e49a9a; /* Rosa más oscuro */
+}
+
+
+
+.degradado {
+    text-align: center;
+	height:auto;
+	width:90%;
+	justify-content: flex-start;
+
+
+}
+.social-media {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  color: #333;
+  font-size: 24px;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+
+
+.social-icon:hover {
+  background-color: #333;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+
+.instagram:hover { background-color: #ff5e5b; }
+.github:hover { background-color: #db00b6; }
+
+
+.indice{
+	display:flex;
+	height:auto;
+	width:40%;
+
+}
+.portada{
+	font-size:60px;
+	color:white;
+	text-shadow:3px 3px 3px #000000;
+}
+-----------------------------------------------------------
+.girlsf{
+	
+	height:auto;
+	width:20%;
+	background-color:#fefefd;
+	border-radius: 25px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.iconic img{  /*adaptamos la iamgen a su div padre*/
+       
+	   width:100%;
+       height:auto;  
+}
+
+
+
+.icono img{  /*adaptamos la iamgen a su div padre*/
+       
+	   width:100%;
+       height:auto;  
+}
+.kylie img{  /*adaptamos la iamgen a su div padre*/
+       
+	   width:100%;
+       height:auto;  
+	  
+}
+
+.proposito{
+	height:auto;
+	width:55%;
+	
+}
+
+.contenedor3{
+  	height:auto;
+	width:100%;
+	display:flex;
+	align-items: center;
+	margin-top:2%;
+	margin-bottom:7%;
+	justify-content: space-around;
+}
+
+.personal{
+	height:auto;
+	width:98%;
+	justify-content: space-evenly;
+	display:flex;
+	align-items: center;
+	margin:1%;
+}
+
+.icono{
+    height:auto;
+	width:20%;	
+	
+}
+.texto{
+	
+	height:auto;
+	width:30%;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+   	
+ }
+.ig{
+	height:auto;
+	width:4%;
+}
+
+/* ----------------------------------------------------------------------------*/
+header nav h1 {
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    font-family: PlayfairDisplay-Medium;
+    margin: 0;
+    font-style: italic;
+}
+
+
+h2{
+	font-size:40px;
+	color:#515052 ;
+	text-align:center;
+	
+	font-family:Ballega;
+}
+
+h3{
+    font-size:30px;
+	color:white;
+	text-align:center;
+	font-family:Ballega;
+	text-shadow:1px 1px 4px #000000;
+}
+.tipoderostro{
+	height:auto;
+	width:80%;
+	background-color:white;
+	display:flex;
+	border-radius: 20px;
+	margin-top:30px;
+	font-size:25px;
+}
+h4{
+    font-size:20px;
+	color:pink;
+	font-family:Ballega;
+}	
+li{
+    font-size:18px;
+	color:gray;
+    font-family:Ballega;
+	margin-top:0px;
+}
+p{
+    font-size:24.5px;
+	color:white;
+	text-align:center;
+	line-height: 1.4;
+	font-family:Mermaid1001;	
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.p2{
+color:gray;
+text-shadow: 1px 1px 3px 
+}
+h5{
+margin:0;
+}
+h6{
+font-size:35px;
+margin:0;
+font-family:Mermaid1001;
+}
+
+.ig2{
+	
+
+
+}
